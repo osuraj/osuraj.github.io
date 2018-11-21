@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="ps_logo.png" rel="icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+
+.jumbotron {
+  b/ackground-color: #f4511e; //#2E2D88;
+  c/olor: #fff;
+  padding: 80px 25px;
+  font-family: Montserrat, sans-serif;
+     
+}
+
+footer{
+  b/order-style: solid;
+  b/order-width: 1px;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-expand-lg navbar-transparent">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style="padding:5px 0px 0px 0px;" href="#">
+        <img src="ps_logo.png" class="" style="width:40px; height:40px; margin:0px;">
+      </a>
+      <span class="navbar-brand"><b> &nbsp;&nbsp;PS</b></span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="home.html">HOME</a></li>
+        <li class=""><a href="about.html">ABOUT</a></li>
+        <li class=""><a href="contact.html">CONTACT</a></li>
+
+        <li class=""><a class="" style="padding: 8px;"  href="login.html ">
+        <button class="btn btn-default" style="border-radius: 5px;">Login</button></a>
+        </li>
+        <li class="active"><a class="" style="padding: 8px;" href="register.html">
+        <button class="btn btn-default" style="border-radius: 5px;">Register</button></a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron text-center">
+  <h5>|| জয় মা কালী ||</h5>
+  <h1>Project Suraj</h1> 
+  <p>Explore All My Projects </p> 
+</div>
+
+<div class="container ">
+  <div class="row ">
+    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+    <div class="col-xs-8 col-sm-6 col-md-4 col-lg-4 shadow">
+      <h2 class="text-center ">Register</h2>
+      <hr>
+      <form action="#">
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+          <label for="lname">Last Name:</label>
+          <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+
+        <div class="form-group">
+          <label for="username">Create Username:</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        </div>
+
+        <div class="form-group">
+          <label for="cpassword">Confirm Password:</label>
+          <input type="password" class="form-control" id="cpassword" placeholder="Renter password" name="cpassword">
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Mobile:</label>
+          <input type="mobile" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea class="form-control" id="address"  name="address" rows="5" cols="22"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="website">Website:</label>
+          <input type="text" class="form-control" id="website" placeholder="Enter website" name="website">
+        </div>
+
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" class="form-control" id="dob" placeholder="Enter email" name="dob">
+        </div>
+
+        <div class="form-group">
+          <label for="email" >Gender:</label> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Male"> Male
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Female"> Female
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" class="radio-container" id="gender" name="gender" value="Other"> Other
+        </div>
+
+        <div class="checkbox">
+            <label>
+              <input type="checkbox"> I caccept the Terms of Use & Privacy Policy.
+              <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-default name="submit" id="submit">Submit</button>
+        &nbsp;&nbsp;&nbsp;
+        <button type="reset" class="btn btn-default value="All" name="reset" id="reset">Reset</button>
+        <br><br>
+        <p class="message">Already registered? <a href="#">Login Here</a></p>
+      </form>
+    </div>
+    <div class="col-xs-2 col-sm-3 col-md-4 col-lg-4"></div>
+  </div> 
+</div><br><br><br>
+
+<footer class="container-fluid text-center bg-grey">
+  <div class="bg-grey">
+  <a href="#" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>
+   &copy; Copyrights 2018 <strong><a href="#" title="Project Suraj"> Project Suraj</a></strong>. All Rights Reserved
+</p>
+</div>
+</footer>
+
+
+</body>
+</html>
